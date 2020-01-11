@@ -1,0 +1,40 @@
+
+/** .theme_color_project-inverse — цветовая схема с тёмным фоном и акцентными контролами
+
+Значения фонов блоков:
+- дефолтный: #000000;
+- акцентный: #FFFFFF;
+- бордерный: #FFFFFF.
+
+Значения состояний текста: 
+- основной: #FFFFFF;
+- второстепенный: rgba(255, 255, 255, 0.6);
+- дополнительный: rgba(255, 255, 255, 0.3), 
+- ссылочный: #0077ff.
+
+**/
+
+$color-bg-default: #000000;
+$color-bg-tone: #FFFFFF;
+$color-bg-border: #FFFFFF;
+
+$color-typo-primary: #FFFFFF;
+$color-typo-secondary: rgba(255, 255, 255, 0.6);
+$color-typo-ghost: rgba(255, 255, 255, 0.3);
+
+$color-link: #0077ff;
+$color-link-hover: #0077ff;
+
+
+.theme_color_project-inverse {
+    --color-bg-default: $color-bg-default;
+    --color-bg-tone: $color-bg-tone;
+    --color-bg-border: $color-bg-border;
+
+    --color-typo-primary: $color-typo-primary;
+    --color-typo-secondary: $color-typo-secondary;
+    --color-typo-ghost: $color-typo-ghost;
+
+    --color-link: $color-link;
+    --color-link-hover: $color-link-hover;
+}

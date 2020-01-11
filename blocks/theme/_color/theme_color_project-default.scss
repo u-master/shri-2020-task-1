@@ -1,0 +1,40 @@
+
+/** .theme_color_project-default — цветовая схема со светлым фоном и яркими акцентными контролами
+
+Значения фонов блоков:
+- дефолтный #FFFFFF;
+- акцентный #ffcc00;
+- бордерный #000000.
+
+Значения состояний текста: 
+- основной: #000000;
+- второстепенный: rgba(0, 0, 0, 0.6);
+- дополнительный: rgba(0, 0, 0, 0.3), 
+- ссылочный: #0077ff. 
+
+**/
+
+$color-bg-default: #FFFFFF;
+$color-bg-tone: #ffcc00;
+$color-bg-border: #000000;
+
+$color-typo-primary: #000000;
+$color-typo-secondary: rgba(0, 0, 0, 0.6);
+$color-typo-ghost: rgba(0, 0, 0, 0.3);
+
+$color-link: #0077ff;
+$color-link-hover: #0077ff;
+
+
+.theme_color_project-default {
+    --color-bg-default: $color-bg-default;
+    --color-bg-tone: $color-bg-tone;
+    --color-bg-border: $color-bg-border;
+
+    --color-typo-primary: $color-typo-primary;
+    --color-typo-secondary: $color-typo-secondary;
+    --color-typo-ghost: $color-typo-ghost;
+
+    --color-link: $color-link;
+    --color-link-hover: $color-link-hover;
+}

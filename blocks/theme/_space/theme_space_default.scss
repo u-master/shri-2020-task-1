@@ -1,0 +1,42 @@
+/**.theme_space_default — дефолтная размерная линейка.
+
+Пример размеров текста (???):
+- xxxs: 3px;
+- xxs: 6px;
+- xs: 9px;
+- s: 15px;
+- m: 18px;
+- l: 24px;
+- xl: 27px;
+- xxl: 36px;
+- xxxl: 45px;
+- xxxxl: 51px;
+- xxxxxl: 72px.
+**/
+
+
+$space-xxxs: 3px;
+$space-xxs: 6px;
+$space-xs: 9px;
+$space-s: 15px;
+$space-m: 18px;
+$space-l: 24px;
+$space-xl: 27px;
+$space-xxl: 36px;
+$space-xxxl: 45px;
+$space-xxxxl: 51px;
+$space-xxxxxl: 72px;
+
+.theme_space_default {
+    --space-3xs: $space-xxxs;
+    --space-2xs: $space-xxs;
+    --space-xs: $space-xs;
+    --space-s: $space-s;
+    --space-m: $space-m;
+    --space-l: $space-l;
+    --space-xl: $space-xl;
+    --space-2xl: $space-xxl;
+    --space-3xl: $space-xxxl;
+    --space-4xl: $space-xxxxl;
+    --space-5xl: $space-xxxxxl;
+}

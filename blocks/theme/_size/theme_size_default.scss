@@ -1,0 +1,44 @@
+/** .theme-size-default — дефолтная линейка отступов.
+
+Значения размеров высоты текста (так как в задании текст в виде линий):
+- s: 8px;
+- m: 10px;
+- l: 11px;
+- xl: 13px;
+- xxl: 16px.
+
+Значения межстрочных интервалов:
+- s: 21px;
+- m: 25px;
+- l: 28px;
+- xl: 34px;
+- xxl: 38px.
+
+**/
+
+
+$size-text-s: 8px;
+$size-text-m: 10x;
+$size-text-l: 11px;
+$size-text-xl: 13px;
+$size-text-xxl: 16px;
+
+$line-height-text-s: 21px;
+$line-height-text-m: 25px;
+$line-height-text-l: 28px;
+$line-height-text-x: 34px;
+$line-height-text-xxl: 38px;
+
+.theme-size-default {
+    --size-text-s: $size-text-s;
+    --size-text-m: $size-text-m;
+    --size-text-l: $size-text-l;
+    --size-text-xl: $size-text-xl;
+    --size-text-2xl: $size-text-xxl;
+
+    --line-height-text-s: $line-height-text-s;
+    --line-height-text-m: $line-height-text-m;
+    --line-height-text-l: $line-height-text-l;
+    --line-height-text-xl: $line-height-text-xl;
+    --line-height-text-2xl: $line-height-text-xxl;
+}
